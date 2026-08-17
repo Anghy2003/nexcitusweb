@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
+import WhatsAppFab from './components/WhatsAppFab.jsx'
 import Home from './pages/Home.jsx'
 import Planes from './pages/Planes.jsx'
 import Servicios from './pages/Servicios.jsx'
@@ -42,6 +43,7 @@ export default function App() {
         <Page />
       </main>
       <Footer />
+      <WhatsAppFab />
     </>
   )
 }
