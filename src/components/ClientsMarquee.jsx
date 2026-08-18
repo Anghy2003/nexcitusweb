@@ -42,7 +42,7 @@ export default function ClientsMarquee() {
       <div className="trust-panel">
         <div className="trust-info">
           <p className="trust-label">Con la confianza de</p>
-          <h3 className="trust-big">{LOGOS.length}+ Empresas</h3>
+          <h3 className="trust-big">70+ Empresas</h3>
           <p className="trust-rating">
             <span className="trust-stars">★★★★★</span>
             4.8/5 valoración de nuestros clientes

@@ -25,6 +25,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -5276,6 +5277,9 @@ img.icon-3dimg {
     padding: 8px 20px 18px;
     display: grid;
     z-index: 51;
+    max-height: calc(100dvh - 70px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .nav-mobile a {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { NAV_LINKS, ALLIANCES, LOGIN_URL } from '../data.js'
+import { NAV_LINKS, LOGIN_URL } from '../data.js'
 import mark from '../../assets/Copia-de-Copia-de-Logo-Legalsat-Nexcitus-5.png'
 
 export default function Footer() {
@@ -103,7 +103,6 @@ export default function Footer() {
 
           <div className="footer-bottom">
             <span>© Nexcitus 2026 — Todos los derechos reservados.</span>
-            <span className="footer-alliances">{ALLIANCES.join(' · ')}</span>
             <span>
               <a href="#">Términos y condiciones</a> · <a href="#">Política de privacidad</a>
             </span>
