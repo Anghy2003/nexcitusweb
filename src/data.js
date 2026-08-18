@@ -11,7 +11,7 @@ export const WHATSAPP_2 = 'https://wa.me/593987835870'
 export const LOGIN_URL = 'https://legalsat.com'
 
 export const STATS = [
-  { value: '+30 %', label: 'productividad de sus abogados desde el primer día', icon: 'chart' },
+  { value: '+30 %', label: 'productividad de tus procesos, juicios y cobranzas desde el primer día', icon: 'chart' },
   { value: 'A-100', label: 'seguridad auditada al máximo nivel', icon: 'shield' },
   { value: '24/7', label: 'su oficina en línea, siempre disponible', icon: 'clock' },
   { value: '100 %', label: 'operación móvil incluso sin conexión', icon: 'cloudOff' },

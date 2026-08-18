@@ -154,7 +154,7 @@ export default function DemoCta() {
             </div>
           </Reveal>
           <Reveal delay={190}>
-            <p className="open-note">+30 % de productividad de sus abogados desde el primer día</p>
+            <p className="open-note">+30 % de productividad de tus procesos, juicios y cobranzas desde el primer día</p>
           </Reveal>
         </div>
       </div>
